@@ -1,11 +1,11 @@
 # Projeto Card Presentation - Perfil e Habilidades
 
-Aprimorando e apresentando habilidades em CSS, HTML e JAVASCRIPT ++
+Aprimorando e apresentando habilidades em CSS (flex, orientação e resposividade), HTML ++
 
 | curriculum vitæ |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Projeto Card Presentation - Perfil e Habilidades**
-| :label: Tecnologias | css, html, javascript
+| :label: Tecnologias | css, html
 | :rocket: URL         | https://jairpicklerjr.vercel.app/index.html
 | :fire: Desafio     | https://jairpicklerjr.vercel.app/index.html
 
@@ -13,4 +13,4 @@ Aprimorando e apresentando habilidades em CSS, HTML e JAVASCRIPT ++
 
 ## Detalhes do projeto
 
-Front-End para apresentação do profissional ;x
+Front-End para apresentação do profissional
