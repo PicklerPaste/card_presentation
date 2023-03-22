@@ -6,10 +6,8 @@ Aprimorando e apresentando habilidades em CSS (flex, orientação e resposividad
 | -------------  | --- |
 | :sparkles: Nome        | **Projeto Card Presentation - Perfil e Habilidades**
 | :label: Tecnologias | css, html
-| :rocket: URL         | https://jairpicklerjr.vercel.app/index.html
-| :fire: Desafio     | https://jairpicklerjr.vercel.app/index.html
-
-![](https://jairpicklerjr.vercel.app/imagem_sobre.gif#vitrinedev)
+| :rocket: URL         | https://card-presentation-eight.vercel.app/
+| :fire: Desafio     | https://card-presentation-eight.vercel.app/
 
 ## Detalhes do projeto
 
