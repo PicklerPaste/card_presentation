@@ -1,0 +1,261 @@
+:root {
+    --branco-gelo: #F6F1F1;
+    --azul-piscina: #19A7CE;
+    --azul-mar: #146C94;
+    --preto: #000000;
+    --preto-git: #333;
+    --azul-linkedin: #0077B5;
+    --rosa-instagram: #C13584;
+    --azul-site: #405DE6;
+    --laranjado-telefone: #FFCE30;
+    --verde-email: #609966;
+    --azul-telegram: #0088cc;
+    --roxo-localizacao: #BE6DB7;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, var(--azul-mar), var(--preto));
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.perfil-card {
+    background: #111;
+    width: 400px;
+    padding: 3rem;
+    border-radius: 10px;
+    min-height: 400px;
+    position: relative;
+    color: var(--branco-gelo);
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perfil-card .foto-perfil {
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.perfil-card .foto-perfil img {
+    border-radius: 10px;
+    width: 250px;
+}
+
+.perfil-card .detalhes-perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.detalhes-perfil .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.detalhes-perfil .intro h2 {
+    margin-top: 20px;
+}
+
+.detalhes-perfil .intro h4 {
+    background: var(--preto);
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 8px;
+}
+
+.detalhes-perfil .intro .icon-social {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.detalhes-perfil .intro .icon-social i {
+    color: var(--branco-gelo);
+    font-size: 16px;
+    background-color: var(--preto);
+    margin: 5px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.detalhes-perfil .intro .icon-social i:hover {
+    transform: scale(1.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.perfil-card .informacao-contato {
+    background-color: var(--preto);
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.perfil-card .informacao-contato .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.informacao-contato .item .icone {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: var(--preto);
+    text-align: center;
+    color: var(--branco-gelo);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.item .icone:hover {
+    transform: scale(1.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.item .detalhe {
+    min-width: 70%;
+}
+
+.item .detalhe span {
+    font-size: 12px;
+}
+
+.download-btn {
+    background: linear-gradient(45deg, var(--azul-mar), var(--preto));
+    color: var(--branco-gelo);
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    transform: scale(1.1);
+}
+
+.sobre {
+    background-color: #111;
+    max-width: 800px;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+}
+
+.sobre h1 {
+    color: var(--branco-gelo);
+    margin-bottom: 1.1rem;
+    position: relative;
+    display: inline-block;
+    font-size: 3.5rem;
+}
+
+.sobre h1::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: -50%;
+    width: 45%;
+    height: 3px;
+    background: linear-gradient(45deg, var(--azul-mar), var(--preto));
+}
+
+.sobre p {
+    color: var(--branco-gelo);
+    margin: 1.5rem 0;
+}
+
+.sobre h2 {
+    border-top: 1px solid var(--azul-mar);
+    color: var(--azul-mar);
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    padding: 10px 0 0 0;
+}
+
+.sobre .habilidades {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.item-habilidades .icone i {
+    font-size: 2.5rem;
+    color: var(--azul-piscina);
+}
+
+.habilidades .item-habilidades {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.habilidades .item-habilidades .descricao {
+    width: 75%;
+    color: #555;
+}
+
+.habilidades .item-habilidades .descricao h3 {
+    color: var(--branco-gelo);
+    margin-bottom: 3px;
+}
+
+.habilidades .item-habilidades .descricao p {
+    margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .sobre {
+        width: 1005;
+        max-width: 400px;
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .sobre h1 {
+        font-size: 2.2rem;
+    }
+
+    .sobre .habilidades {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+}
